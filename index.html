@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c696735f87.js" crossorigin="anonymous"></script>
+    <title>Phantom Thieves</title>
+</head>
+
+<body
+    style="background-image: url(./image/bg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: left top;">
+    <div class="w3-container">
+        <div>
+            <img src="./image/banner.png" class="w3-mobile" alt="" width="100%">
+        </div>
+        <div class="w3-bar w3-card-4 w3-mobile" style="background-color: #9b0404; color: white;">
+            <button class="w3-bar-item w3-button w3-black" onclick="openMenu('Home')">Home</button>
+            <button class="w3-bar-item w3-button w3-black" onclick="openMenu('Character')">Character</button>
+            <button class="w3-bar-item w3-button w3-black" onclick="openMenu('About')">About</button>
+            <div class="w3-dropdown-hover">
+                <button class="w3-bar-item w3-button w3-black" onclick="openMenu('Character')">Menu</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <button class="w3-bar-item w3-button w3-black" onclick="openMenu('Home')">Home</button>
+                    <button class="w3-bar-item w3-button w3-black" onclick="openMenu('Character')">Character</button>
+                    <button class="w3-bar-item w3-button w3-black" onclick="openMenu('About')">About</button>
+                    <button class="w3-bar-item w3-button w3-black" onclick="openMenu('Profile')">Profile</button>
+                </div>
+            </div>
+            <button class="w3-bar-item w3-button w3-black" onclick="openMenu('Profile')">Profile</button>
+        </div>
+    </div>
+    <div class="w3-container w3-center w3-animate-zoom isiMenu" id="Home" style="display: block;">
+        <br>
+        <div class="w3-mobile">
+            <img src="./image/1.png" width="37%" alt="">
+            <br>
+            <img src="./image/2.png" width="30%" alt="">
+            <ul>
+                <span><img src="./image/yes.png" width="8%" alt=""></span> <span><img src="./image/no.png" width="8%"
+                        alt=""></span>
+            </ul>
+            <img src="./image/comment.png" alt="" width="40%">
+        </div>
+    </div>
+    <div class="w3-container w3-center isiMenu" id="Character" style="display: none;">
+        <h1 style="font-family: serif; letter-spacing: 5px; color: white; background-color: black;">Character Persona 5
+        </h1>
+        <center>
+        <table>
+            <tr>
+                <td>
+                    <div class="w3-card-4 w3-black w3-animate-bottom" style="width: 350px; height: 450px; padding-top: 1%;">
+                        <center>
+                            <div class="w3-card" style="width: 340px; height: 440px; font-family: serif; letter-spacing: 5px; background-color: #ae0f13;">
+                                <br>
+                                <img src="./image/morgana.jpg" style="width: 250px; height: 300px;" alt="">
+                                <p>Nama: Morgana</p>
+                                <p>Phantom Thief Code Name</p>
+                                <p>Mona</p>
+                            </div>
+                        </center>
+                    </div>
+                </td>
+                <td>
+                    <div class="w3-card-4 w3-black w3-animate-bottom" style="width: 350px; height: 450px; padding-top: 1%;">
+                        <center>
+                            <div class="w3-card"
+                                style="width: 340px; height: 440px; font-family: serif; letter-spacing: 5px; background-color: #ae0f13;">
+                                <br>
+                                <img src="./image/ren.jpg" style="width: 250px; height: 300px;" alt="">
+                                <p>Nama: Ren Amamiya</p>
+                                <p>Phantom Thief Code Name</p>
+                                <p>Joker</p>
+                            </div>
+                        </center>
+                    </div>
+                </td>
+                <td>
+                    <div class="w3-card-4 w3-black w3-animate-bottom" style="width: 350px; height: 450px; padding-top: 1%;">
+                        <center>
+                            <div class="w3-card"
+                                style="width: 340px; height: 440px; font-family: serif; letter-spacing: 5px; background-color: #ae0f13;">
+                                <br>
+                                <img src="./image/ryuji.jpg" style="width: 250px; height: 300px;" alt="">
+                                <p>Nama: Ryuji Sakamoto</p>
+                                <p>Phantom Thief Code Name</p>
+                                <p>Skull</p>
+                            </div>
+                        </center>
+                    </div>
+                </td>
+                <td>
+                    <div class="w3-card-4 w3-black w3-animate-bottom" style="width: 350px; height: 450px; padding-top: 1%;">
+                        <center>
+                            <div class="w3-card"
+                                style="width: 340px; height: 440px; font-family: serif; letter-spacing: 5px; background-color: #ae0f13;">
+                                <br>
+                                <img src="./image/ann.jpg" style="width: 250px; height: 300px;" alt="">
+                                <p>Nama: Ann Takamaki</p>
+                                <p>Phantom Thief Code Name</p>
+                                <p>Panther</p>
+                            </div>
+                        </center>
+                    </div>
+                </td>
+                <td>
+                    <div class="w3-card-4 w3-black w3-animate-bottom" style="width: 350px; height: 450px; padding-top: 1%;">
+                        <center>
+                            <div class="w3-card"
+                                style="width: 340px; height: 440px; font-family: serif; letter-spacing: 5px; background-color: #ae0f13;">
+                                <br>
+                                <img src="./image/yusuke.jpg" style="width: 250px; height: 300px;" alt="">
+                                <p>Nama: Yusuke Kitagawa</p>
+                                <p>Phantom Thief Code Name</p>
+                                <p>Fox</p>
+                            </div>
+                        </center>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="w3-card-4 w3-black w3-animate-bottom" style="width: 350px; height: 450px; padding-top: 1%; margin-left: 50%;">
+                        <center>
+                            <div class="w3-card"
+                                style="width: 340px; height: 440px; font-family: serif; letter-spacing: 5px; background-color: #ae0f13;">
+                                <br>
+                                <img src="./image/makoto.jpg" style="width: 250px; height: 300px;" alt="">
+                                <p>Nama: Makoto Majima</p>
+                                <p>Phantom Thief Code Name</p>
+                                <p>Queen</p>
+                            </div>
+                        </center>
+                    </div>
+                </td> 
+                <td>
+                    <div class="w3-card-4 w3-black w3-animate-bottom" style="width: 350px; height: 450px; padding-top: 1%; margin-left: 50%;">
+                        <center>
+                            <div class="w3-card"
+                                style="width: 340px; height: 440px; font-family: serif; letter-spacing: 5px; background-color: #ae0f13;">
+                                <br>
+                                <img src="./image/futaba.jpg" style="width: 250px; height: 300px;" alt="">
+                                <p>Nama: Futaba Sakura</p>
+                                <p>Phantom Thief Code Name</p>
+                                <p>Oracle</p>
+                            </div>
+                        </center>
+                    </div>
+                </td> 
+                <td>
+                    <div class="w3-card-4 w3-black w3-animate-bottom" style="width: 350px; height: 450px; padding-top: 1%; margin-left: 50%;">
+                        <center>
+                            <div class="w3-card"
+                                style="width: 340px; height: 440px; font-family: serif; letter-spacing: 5px; background-color: #ae0f13;">
+                                <br>
+                                <img src="./image/kasumi.jpg" style="width: 250px; height: 300px;" alt="">
+                                <p>Nama: Kasumi Yozhizawa</p>
+                                <p>Phantom Thief Code Name</p>
+                                <p>Violet</p>
+                            </div>
+                        </center>
+                    </div>
+                </td> 
+                <td>
+                    <div class="w3-card-4 w3-black w3-animate-bottom" style="width: 350px; height: 450px; padding-top: 1%; margin-left: 50%;">
+                        <center>
+                            <div class="w3-card"
+                                style="width: 340px; height: 440px; font-family: serif; letter-spacing: 5px; background-color: #ae0f13;">
+                                <br>
+                                <img src="./image/goro.jpg" style="width: 250px; height: 300px;" alt="">
+                                <p>Nama: Goro Akechi</p>
+                                <p>Phantom Thief Code Name</p>
+                                <p>Crow</p>
+                            </div>
+                        </center>
+                    </div>
+                </td> 
+            </tr>
+        </table>
+    </center>
+    </div>
+    <div id="About" class="w3-padding-top-64 w3-animate-left isiMenu" style="display: none;">
+        <div class="w3-row" style="font-family: sans-serif; letter-spacing: 5px;">
+            <div class="w3-half w3-padding-large w3-hide-small">
+                <img src="./image/persona5.jpg" class="w3-round w3-image w3-opacity-min" alt="Table" style="width:70%">
+            </div>
+            <div class="w3-half w3-padding-large">
+                <h1 class="w3-center" style="color: white;">About Persona 5</h1><br>
+                <h5 class="w3-center" style="color: white;">Release Date September 15, 2016</h5>
+                <p class="w3-large" style="color: whitesmoke;">
+                    Persona 5 is a 2016 role-playing video game developed by Atlus. It takes place in modern-day Tokyo
+                    and follows a high school student known by the pseudonym Joker who transfers to a new school after
+                    being falsely accused of assault and put on probation. Over the course of a school year, he and
+                    other students awaken to a special power, becoming a group of secret vigilantes known as the
+                    Phantom Thieves of Hearts. They explore the Metaverse, a supernatural realm born from humanity's
+                    subconscious desires, to steal malevolent intent from the hearts of adults. As with previous games
+                    in the series, the party battles enemies known as Shadows using physical manifestations of their
+                    psyche known as their Personas. The game incorporates role-playing and dungeon crawling elements
+                    alongside social simulation scenarios.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="Profile" class="w3-center isiMenu" style="display: none; margin-top: 10%; margin-bottom: 20%;">
+        <div class="w3-row-padding">
+            <img src="./image/profile.jpg" alt="Zulfiqar" style="width:24%">
+            <h3 style="color: white;">Zulfiqar Galih Senapati</h3>
+            <p class="w3-opacity" style="color: white;">10122168 - IF-5</p>
+            <a href="https://github.com/ZeXieL/"><i class="fa fa-brands fa-github fa-3x" style="color: white;"></i></a>
+            <br>
+        </div>
+    </div>
+</body>
+<script>
+    function openMenu(namaMenu) {
+        var i;
+        var x = document.getElementsByClassName("isiMenu");
+
+        for (i = 0; i < x.length; i++) {
+
+            console.log('Menu terbuka ,', namaMenu)
+            x[i].style.display = "none";
+        }
+        document.getElementById(namaMenu).style.display = "block";
+    }
+</script>
+
+</html>
